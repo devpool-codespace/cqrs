@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED0D58A1-4008-4426-AB37-F0257E18BD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devpool.CQRS", "src\Devpool.CQRS\Devpool.CQRS.csproj", "{434CE4ED-AA5D-48C4-9BA7-99948D9C08BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devpool.CQRS.Abstractions", "src\Devpool.CQRS.Abstractions\Devpool.CQRS.Abstractions.csproj", "{2BE265A9-21EC-4549-8EAA-F527366CCD60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{434CE4ED-AA5D-48C4-9BA7-99948D9C08BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434CE4ED-AA5D-48C4-9BA7-99948D9C08BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434CE4ED-AA5D-48C4-9BA7-99948D9C08BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434CE4ED-AA5D-48C4-9BA7-99948D9C08BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE265A9-21EC-4549-8EAA-F527366CCD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE265A9-21EC-4549-8EAA-F527366CCD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE265A9-21EC-4549-8EAA-F527366CCD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE265A9-21EC-4549-8EAA-F527366CCD60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{434CE4ED-AA5D-48C4-9BA7-99948D9C08BC} = {ED0D58A1-4008-4426-AB37-F0257E18BD10}
+		{2BE265A9-21EC-4549-8EAA-F527366CCD60} = {ED0D58A1-4008-4426-AB37-F0257E18BD10}
+	EndGlobalSection
+EndGlobal

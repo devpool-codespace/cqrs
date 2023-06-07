@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Devpool.CQRS.Abstractions</PackageId>
+        <PackageVersion>0.0.0-alfa-1</PackageVersion>
+        <Authors>DevpoolSoftware</Authors>
+        <Company>DevpoolSoftware</Company>
+        <PackageProjectUrl>https://github.com/devpool-codespace/cqrs</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/devpool-codespace/cqrs</RepositoryUrl>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageIcon>icon.jpg</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="icon.jpg" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
