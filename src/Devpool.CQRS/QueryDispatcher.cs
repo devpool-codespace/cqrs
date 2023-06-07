@@ -25,3 +25,4 @@ public class QueryDispatcher : IQueryDispatcher
         return handler.HandleAsync((dynamic)query, cancellationToken);
     }
 }
+//d
